@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">07PopUp Menu</string>
+    <string name="action_string">coba</string>
+    <string name="menu_satu">Menu Satu</string>
+    <string name="menu_dua">Menu Dua</string>
+    <string name="menu_tiga">Menu Tiga</string>
+    <string name="share">Share</string>
+    <string name="settings">Setings</string>
+</resources>

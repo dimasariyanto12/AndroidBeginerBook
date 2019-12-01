@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">e
+
+   <LinearLayout
+       android:id="@+id/Linier1"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:layout_weight="1"
+       android:orientation="horizontal">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="fill_parent"
+           android:layout_weight="1"
+           android:background="#aa0000"
+           android:gravity="center_horizontal"
+           android:text="Merah"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="fill_parent"
+               android:layout_weight="1"
+               android:background="#00aa00"
+               android:gravity="center_horizontal"
+               android:text="Hijau"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="fill_parent"
+           android:layout_weight="1"
+           android:background="#0000aa"
+           android:gravity="center_horizontal"
+           android:text="Biru"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="fill_parent"
+           android:layout_weight="1"
+           android:background="#aaaa00"
+           android:gravity="center_horizontal"
+           android:text="Kuning"/>
+
+   </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Linier2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Baris Pertama"
+            android:textSize="15pt"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Baris Kedua"
+            android:textSize="15pt"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Baris Ketiga"
+            android:textSize="15pt"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Baris Keempat"
+            android:textSize="15pt"/>
+    </LinearLayout>
+</LinearLayout>
